@@ -1,0 +1,102 @@
+*{
+    box-sizing:border-box
+}
+body{
+    
+    background-color: #bdd4e7;
+background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+
+ 
+
+
+    font-family: "poppins", sans-serif;
+    margin:0;
+    display:flex;
+    justify-content: center;
+    min-height:100vh;
+    flex-direction:column ;
+    align-items:center;
+
+    
+
+}
+.input{
+    background-color: #000000;
+    border-radius:10px;
+    color:grey;
+    border:2px solid grey;
+    font-family:inherit;
+    font-size: 1rem;
+    padding:1rem;
+    margin-bottom:2 rem;
+    justify-content: center;
+
+}
+.img-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.card{
+    background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+     ;
+     display:flex;
+     padding: 3rem;
+     border-radius:20px;
+     box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(0,0,0,.1);
+    max-width:800px;
+    margin: 1rem 1rem;
+    border:.4rem solid black;
+
+}
+.avatar{
+ width: 140px;
+ height:140px;
+ border-radius: 50%;
+ border: 5px solid black;
+justify-content: center;
+
+}
+
+.user-info{
+    color:black;
+    margin-left:2rem;
+
+}
+
+.user-info ul{
+    display:flex;
+    justify-content: space-between;
+    padding:0;
+    list-style-type:none;
+    width:400px;
+
+
+}
+.user-info ul li strong{
+    font-size:1rem;
+
+}
+
+.repo{
+background-color:blue;
+font-size: 0.7rem;
+display: inline-block;
+color:white;
+padding: 0.25rem 0.5rem;
+margin-right:0.5rem;
+margin-bottom: 0.5rem;
+text-decoration: none;
+
+}
+
+.git{
+    border-radius:50%;
+    border:.3rem solid black;
+    justify-content: center;
+    display:flex;
+    height:100px;
+    width:100px;
+}
